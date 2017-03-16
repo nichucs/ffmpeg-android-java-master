@@ -29,8 +29,5 @@ For examples and usage instructions head over to:
 ## License
 * Check file LICENSE.GPLv3 and Make sure to follow the licensing terms and conditions of the project and the software used to build the project.
 
-## HIRE US
-* Get in touch with us - http://www.writingminds.com
-
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hiteshsondhi88/ffmpeg-android-java/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
