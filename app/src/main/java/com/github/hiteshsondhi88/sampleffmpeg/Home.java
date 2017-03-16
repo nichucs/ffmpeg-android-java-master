@@ -27,6 +27,8 @@ import com.github.hiteshsondhi88.libffmpeg.LoadBinaryResponseHandler;
 import com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegCommandAlreadyRunningException;
 import com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegNotSupportedException;
 
+import java.util.Random;
+
 public class Home extends Activity implements View.OnClickListener {
 
     private static final String TAG = Home.class.getSimpleName();
@@ -157,7 +159,7 @@ public class Home extends Activity implements View.OnClickListener {
                     cmd = "-i " + url +
                             " -acodec copy -bsf:a aac_adtstoasc " +
                             "-vcodec copy "+
-                            Environment.getExternalStorageDirectory()+"/out.mp4";
+                            Environment.getExternalStorageDirectory()+"/out"+new Random().nextInt()+".mp4";
                 }
                 String[] command = cmd.split(" ");
                 if (command.length != 0) {
